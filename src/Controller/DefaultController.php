@@ -13,7 +13,7 @@ class DefaultController extends AbstractController
     public function default()
     {
         return $this->render('default/default.html.twig', [
-            'controller_name' => 'DefaultController',
+            
         ]);
     }
 }
